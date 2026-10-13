@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.env
+.venv/
+venv/
+ENV/
+*.db
+*.sqlite3
+*.sqlite
+uploads/
+storage/
+
+# Node / React
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.npm/
+*.log
+
+# Hardhat / Blockchain
+blockchain/artifacts/
+blockchain/cache/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

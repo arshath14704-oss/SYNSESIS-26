@@ -1,0 +1,18 @@
+{
+  "receipt_reference": "GRN-2026-9041",
+  "delivery_date": "2026-10-02",
+  "received_quantity": 1500,
+  "receiver_signoff": true,
+  "items": [
+    {
+      "description": "Industrial Microcontrollers ARM-Cortex M7",
+      "received_qty": 500,
+      "condition": "VERIFIED_OK"
+    },
+    {
+      "description": "Precision Opto-isolators 5kV",
+      "received_qty": 1000,
+      "condition": "VERIFIED_OK"
+    }
+  ]
+}

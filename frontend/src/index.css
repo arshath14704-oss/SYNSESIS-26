@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-forest: #173D32;
+    --color-botanical: #245747;
+    --color-moss: #527763;
+    --color-sage: #91A891;
+    --color-brass: #C5A66B;
+    --color-sand: #E6DDC9;
+    --color-parchment: #F0EBDD;
+    --color-charcoal: #25352E;
+    --color-oxblood: #813E43;
+
+    --bg-main: #F0EBDD;
+    --card-surface: #FAF7EE;
+    --card-border: #D8CEBC;
+  }
+
+  body {
+    background-color: #F0EBDD;
+    color: #25352E;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    max-width: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #F0EBDD;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+/* Custom scrollbars in botanical tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E6DDC9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #527763;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #245747;
+}
+
+/* Botanical surfaces & effects */
+.botanical-card {
+  background-color: #FAF7EE;
+  border: 1px solid #D8CEBC;
+}
+
+.botanical-card-dark {
+  background-color: #173D32;
+  border: 1px solid #245747;
+  color: #F0EBDD;
+}

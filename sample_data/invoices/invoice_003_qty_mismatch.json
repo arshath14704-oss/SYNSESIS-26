@@ -1,0 +1,22 @@
+{
+  "invoice_number": "INV-2026-9104",
+  "supplier_name": "Sterling Logistics & Cargo Corp",
+  "buyer_name": "Reliance Retail Warehousing",
+  "supplier_gstin": "33AABCS4567B1Z2",
+  "buyer_gstin": "27AABCR1234M1Z9",
+  "po_number": "PO-2026-7720",
+  "invoice_date": "2026-10-05",
+  "due_date": "2026-11-05",
+  "amount": 800000.0,
+  "tax_amount": 144000.0,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Heavy Duty Pallet Storage Racks",
+      "quantity": 100,
+      "unit_price": 8000.0,
+      "total": 800000.0
+    }
+  ],
+  "payment_terms": "NET_30"
+}

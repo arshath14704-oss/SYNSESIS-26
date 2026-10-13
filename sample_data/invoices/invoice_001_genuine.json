@@ -1,0 +1,28 @@
+{
+  "invoice_number": "INV-2026-8801",
+  "supplier_name": "Apex Microelectronics Ltd",
+  "buyer_name": "Tata Consumer Electronics Ltd",
+  "supplier_gstin": "27AABCA1234F1Z8",
+  "buyer_gstin": "29AABCT9876C1Z4",
+  "po_number": "PO-2026-4410",
+  "invoice_date": "2026-10-01",
+  "due_date": "2026-11-15",
+  "amount": 1250000.0,
+  "tax_amount": 225000.0,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Industrial Microcontrollers ARM-Cortex M7",
+      "quantity": 500,
+      "unit_price": 2000.0,
+      "total": 1000000.0
+    },
+    {
+      "description": "Precision Opto-isolators 5kV",
+      "quantity": 1000,
+      "unit_price": 250.0,
+      "total": 250000.0
+    }
+  ],
+  "payment_terms": "NET_45"
+}

@@ -1,0 +1,22 @@
+{
+  "invoice_number": "INV-2026-9502",
+  "supplier_name": "Global Tech Infrastructure Pvt",
+  "buyer_name": "Infosys BPM Services",
+  "supplier_gstin": "29AABCG7788P1Z5",
+  "buyer_gstin": "29AABCI9988Q1Z1",
+  "po_number": "PO-2026-8833",
+  "invoice_date": "2026-10-08",
+  "due_date": "2026-11-08",
+  "amount": 1450000.0,
+  "tax_amount": 261000.0,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Enterprise Grade Edge Routers",
+      "quantity": 10,
+      "unit_price": 145000.0,
+      "total": 1450000.0
+    }
+  ],
+  "payment_terms": "NET_30"
+}
